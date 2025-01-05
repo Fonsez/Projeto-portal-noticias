@@ -65,4 +65,16 @@ main{
 }
 
 
+/* forma de colocar o degrade emcima do card */
+.card{
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(2, 6, 23, 0.00) 0%, #020617 100%);
+  }
+
+}
+
 
