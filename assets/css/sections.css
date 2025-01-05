@@ -26,6 +26,11 @@
 
     padding: 24px;
 
+    /* esse seletor serve para ver se lá em figcaption tem class com .text-lg se tiver trocar o padding para 12px q é o padrao q está no figma para os cards menores */
+    &:has(.text-lg){
+      padding: 12px;
+    }
+
     h2{
       margin-top: 8px;
     }
