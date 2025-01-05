@@ -1,0 +1,20 @@
+/* utility-fist */
+/* uma classe que vai fazer apenas uma coisa */
+/* coloca os elementos em coluna uma abaixo da outra */
+.grid{
+  display: grid;
+}
+
+/* transforma os elementos em coluna para colocar ao lado do outro*/
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+
+.grid-cols-2{
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
