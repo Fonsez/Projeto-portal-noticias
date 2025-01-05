@@ -28,6 +28,8 @@
 }
 
 
+
+
 body{
   font: var(--text);
   color: var(--text-color-primary);
@@ -64,17 +66,23 @@ main{
   margin-top: 40px;
 }
 
-
-/* forma de colocar o degrade emcima do card */
-.card{
-  position: relative;
-  &::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(2, 6, 23, 0.00) 0%, #020617 100%);
-  }
-
+/* config fonts */
+.text-2xl {
+  font: var(--h1);
 }
+
+.text-xl {
+  font: var(--h2);
+}
+
+.text-lg {
+  font: var(--h3);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+
 
 
